@@ -2,9 +2,9 @@ import React, { Component } from 'react';
 
 class Flat extends Component {
   style = () => {
-    // console.log(this.props);
+    console.log(this.props);
     const style = {
-      backgroundImage: 'url(' + this.props.imageUrl + ')',
+      background-image: 'url(' + this.props.imageUrl + ')',
     }
     return style
   }

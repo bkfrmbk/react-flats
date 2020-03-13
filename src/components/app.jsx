@@ -2,7 +2,7 @@ import React, { Component } from 'react';
 import Flat from './flat';
 import Flatlist from './flatlist';
 import flats from '../../data/flats';
-import SimpleMap from './simple_map'
+import SimpleMap from './simple_map';
 
 
 class App extends Component {

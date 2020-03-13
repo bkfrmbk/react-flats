@@ -1,11 +1,11 @@
 import React, { Component } from 'react';
 
-class Flat extends Component {
+class Marker extends Component {
   style = () => {
     console.log(this.props);
     const style = {
       backgroundImage: `url(${this.props.imageUrl})`,
-    };
+    }
     return style;
   }
 
@@ -22,4 +22,4 @@ class Flat extends Component {
   }
 }
 
-export default Flat;
+export default Marker;

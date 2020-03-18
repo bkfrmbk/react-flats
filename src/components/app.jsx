@@ -1,8 +1,9 @@
 import React, { Component } from 'react';
-import Flat from './flat';
 import Flatlist from './flatlist';
 import flats from '../../data/flats';
 import SimpleMap from './simple_map';
+
+console.log(process.env.REACT_APP_MAP_API_KEY);
 
 
 class App extends Component {

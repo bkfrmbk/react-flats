@@ -17,11 +17,7 @@ class Flatlist extends Component {
   }
 
   render() {
-    return (
-      <div>
-        {this.renderList()}
-      </div>
-    );
+    return this.renderList();
   }
 }
 

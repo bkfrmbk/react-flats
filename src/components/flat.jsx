@@ -1,4 +1,5 @@
 import React, { Component } from 'react';
+import Marker from './simple_map';
 
 class Flat extends Component {
   style = () => {

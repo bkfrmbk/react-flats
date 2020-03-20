@@ -11,6 +11,8 @@ class Flatlist extends Component {
           price={flat.price}
           imageUrl={flat.imageUrl}
           key={flat.imageUrl}
+          lat={flat.lat}
+          lng={flat.lng}
         />
       );
     });

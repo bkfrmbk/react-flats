@@ -22,7 +22,7 @@ class App extends Component {
           <Flatlist flats={this.state.flats} />
         </div>
         <div className="map-container">
-          <SimpleMap />
+          <SimpleMap lat={this.state.flats[0].lat} lng={this.state.flats[0].lng} />
         </div>
       </div>
     );
